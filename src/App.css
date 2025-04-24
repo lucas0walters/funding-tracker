@@ -1,6 +1,6 @@
 body {
-  background-color: #121212;
-  color: #e0e0e0;
+  background-color: #f9f9f9; /* Light background */
+  color: #333333; /* Dark text */
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
@@ -42,25 +42,25 @@ body {
 }
 
 h1 {
-  color: #ffffff;
+  color: #222222; /* Darker heading color */
   margin-bottom: 2rem;
 }
 
 .card {
-  background-color: #1e1e1e;
+  background-color: #ffffff; /* White card background */
   border-radius: 8px;
   padding: 2em;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .read-the-docs {
-  color: #888;
+  color: #555555; /* Medium gray text */
 }
 
 .chart-container {
-  background-color: #1e1e1e;
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1rem 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff; /* White background for charts */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1.5rem; /* Inner padding */
+  margin: 1rem 0; /* Spacing between charts */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
