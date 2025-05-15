@@ -1,6 +1,6 @@
 {
   "name": "funding-tracker",
-  "homepage": "http://lucas0walters.github.io/funding-tracker",
+  "homepage": ".",
   "private": true,
   "version": "0.0.0",
   "type": "module",
