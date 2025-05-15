@@ -9,7 +9,7 @@ function App() {
 
   // Fetch funding data from the JSON file when the component mounts
   useEffect(() => {
-    fetch('/funding.json')
+    fetch('./funding.json')
       .then((response) => response.json()) // Parse the JSON response
       .then((data) => setFundingData(data)) // Store the data in state
       .catch((error) => console.error('Error fetching funding data:', error)); // Handle errors
